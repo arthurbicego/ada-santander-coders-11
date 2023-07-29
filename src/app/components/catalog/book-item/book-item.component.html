@@ -1,0 +1,16 @@
+<div class="book-list">
+    <div class="book-item">
+        <div>
+            <img style="width: 300px; object-fit: fill;" [src]="book.image">
+        </div>
+        <div class="book-item__title">{{ book.title | uppercase}}</div>
+        <div class="book-item__summary">{{ book.summary }}</div>
+        <div class="book-item__publication_date">{{ book.publication_date }}</div>
+        <div class="book-item__publishing_company">{{ book.publishing_company }}</div>
+        <div class="book-item__authors">{{ book.authors }}</div>
+        <div class="book-item__genres">{{ book.genres }}</div>
+        <div class="book-item__rating">{{ book.rating }}</div>
+        <div class="book-item__like">{{ book.like }}</div>
+        <div class="book-item__review">{{ book.review }}</div>
+    </div>
+</div>

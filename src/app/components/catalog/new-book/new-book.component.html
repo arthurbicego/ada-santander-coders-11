@@ -1,0 +1,72 @@
+<h2>{{ editMode ? "Edit" : "Register" }} book</h2>
+
+<form [formGroup]="formBook" (ngSubmit)="editMode ? updateBook() : createBook()">
+  <p>
+    <mat-form-field>
+      <mat-label>Image</mat-label>
+      <input matInput formControlName="image" />
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field>
+      <mat-label>Title</mat-label>
+      <input matInput formControlName="title" />
+      <mat-error>Mandatory field</mat-error>
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field>
+      <mat-label>Summary</mat-label>
+      <input matInput formControlName="summary" />
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field>
+      <mat-label>Publication Date</mat-label>
+      <input matInput formControlName="publication_date" />
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field>
+      <mat-label>Publishing Company</mat-label>
+      <input matInput formControlName="publishing_company" />
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field>
+      <mat-label>Authors</mat-label>
+      <input matInput formControlName="authors" />
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field>
+      <mat-label>Genres</mat-label>
+      <input matInput formControlName="genres" />
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field>
+      <mat-label>Like</mat-label>
+      <input matInput formControlName="like" />
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field>
+      <mat-label>Review</mat-label>
+      <input matInput formControlName="review" />
+    </mat-form-field>
+  </p>
+
+  <button
+    mat-flat-button
+    color="primary"
+    [disabled]="formBook.invalid || formBook.pristine"
+   type="submit"
+  >
+    {{ editMode ? "Update" : "Register" }}
+  </button>
+  <button mat-stroked-button color="primary" type="reset">Clean</button>
+  <button mat-button (click)="back()" color="primary" type="button">
+    Cancel
+  </button>
+</form>

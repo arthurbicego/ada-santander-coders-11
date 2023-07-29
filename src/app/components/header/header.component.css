@@ -1,0 +1,12 @@
+.header {
+    background-color: rgb(164, 164, 164);
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_title--active {
+    color: white;
+}

@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "login": "arthur@gmail.com",
+      "password": "123456"
+    }
+  ],
+  "books": [
+    {
+      "image": "https://media.theeverygirl.com/wp-content/uploads/2022/07/the-everygirl-gallery-crawdad-sings.jpg",
+      "title": "Where the Crawdads Sing",
+      "summary": "A poignant coming-of-age story about Kya Clark, known as 'the Marsh Girl,' who grows up alone in the marshes of North Carolina. When a young man is found dead, Kya is thrust into the spotlight, and the mystery of his death unravels.",
+      "publication_date": "2018-08-14",
+      "publishing_company": "G.P. Putnam's Sons",
+      "authors": [
+        "Delia Owens"
+      ],
+      "genres": [
+        "Fiction",
+        "Mystery",
+        "Romance"
+      ],
+      "rating": 4.5,
+      "like": "true",
+      "review": "A beautifully written and captivating novel that blends mystery, romance, and the wonders of nature into an unforgettable tale.",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "image": "https://miro.medium.com/v2/resize:fit:1003/1*xlOQEkiGJDatzIVHXU0TAw.jpeg",
+      "title": "Becoming",
+      "summary": "Michelle Obama's memoir chronicles her life from her childhood on the South Side of Chicago to her years as the First Lady of the United States. It offers a deeply personal account of her journey, her triumphs, and her challenges.",
+      "publication_date": "2018-11-13",
+      "publishing_company": "Crown Publishing Group",
+      "authors": [
+        "Michelle Obama"
+      ],
+      "genres": [
+        "Memoir",
+        "Autobiography"
+      ],
+      "rating": 4.8,
+      "like": true,
+      "review": "A powerful and inspiring memoir that provides an intimate look into the life of a remarkable woman who became a role model for millions."
+    },
+    {
+      "image": "https://miro.medium.com/v2/resize:fit:842/1*OAkc01dSgW9rJymnF6izfQ.jpeg",
+      "title": "Educated",
+      "summary": "Tara Westover's memoir recounts her journey from being raised in a strict, survivalist family in rural Idaho to her pursuit of education, which eventually leads her to earning a Ph.D. from Cambridge University.",
+      "publication_date": "2018-02-20",
+      "publishing_company": "Random House",
+      "authors": [
+        "Tara Westover"
+      ],
+      "genres": [
+        "Memoir",
+        "Autobiography"
+      ],
+      "rating": 4.5,
+      "like": "false",
+      "review": "A remarkable and inspiring story of resilience and self-discovery that showcases the transformative power of education.",
+      "id": 4
+    }
+  ]
+}
